@@ -1,3 +1,6 @@
+body{
+    background-color: #f4fdfc;
+}
 nav{
     background-image: url(Assets/Hero-bg.png);
 }
@@ -129,4 +132,112 @@ nav{
     color: #252432;
     font-weight: bold;
     font-size: 42px;
+    font-family: "Raleway";
+}
+.txt-size{
+    font-family: "Raleway";
+}
+.img-section{
+    display: flex;
+    gap: 12px;
+}
+.iimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+}
+.styles{
+    color: #757575;
+}
+.text-five{
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.text-p-five{
+    color: #757575;
+
+
+}
+.btn-five{
+    padding: 22px 25px;
+    width: 185px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img-five{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.title-five{
+    text-align: center;
+    margin: 200px 100px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px 51px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.btn-six{
+    padding: 15px 260px;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+}
+
+.section-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 97px;
+    font-family: "Raleway";
+
+}
+.ttext{
+    font-family: "Inter";
+    font-weight: medium;
+    font-size: 18px;
+}
+
+.text-seven{
+    display: flex;
+    gap: 50px;
+}
+.title-seven{
+   justify-items: center;
+   margin-bottom: 150px;
+}
+.txt-seven{
+    font-size: 100px;
+    font-family: "Inter";
+    color: #4E47FF;
+}
+.txt-seven-p{
+    color: #757575;
+}
+.text-seven{
+    color: #757575;
 }
