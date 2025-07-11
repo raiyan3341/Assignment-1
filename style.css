@@ -1,6 +1,7 @@
 body{
-    background-color: #e9f1fd;
+    background-color: #F5F8FF;
 }
+    /** 1ST SECTION **/
 nav{
     background-image: url(Assets/Hero-bg.png);
 }
@@ -35,6 +36,7 @@ nav{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+    /** 2ND SECTION **/
 .second-title{
     text-align: center;
     margin-top: 158px;
@@ -97,6 +99,7 @@ nav{
     border-radius: 48px;
 }
 
+    /** 3RD SECTION**/
 .title-third{
     text-align: center;
     background-color: rgba(78, 71, 255, 0.1);
@@ -132,6 +135,8 @@ nav{
     font-size: 80px;
     font-family:"Inter" ;
 }
+
+    /**4TH SECTION**/
 .title-four{
     margin: 200px 0px;
 }
@@ -180,6 +185,8 @@ nav{
     color: #B3B3B3;
     margin-top: -20px;
 }
+
+    /**5TH SECTION**/
 .text-five{
     font-family: "Raleway";
     font-size: 50px;
@@ -188,7 +195,6 @@ nav{
 }
 .text-p-five{
     color: #757575;
-
 
 }
 .btn-five{
@@ -218,8 +224,8 @@ nav{
     border-radius: 10px;
     padding: 50px 51px;
 }
-
-.sec-bg {
+    /**6TH SECTION**/
+.title-six {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
@@ -231,7 +237,7 @@ nav{
     display: flex;
 }
 
-.sec-bg input[type="text"], .sec-bg input[type="email"], .sec-bg textarea {
+.title-six input[type="text"], .title-six input[type="email"], .title-six textarea {
     height: 64px;
     border-radius: 5px;
     background-color: #e0fafa;
@@ -258,7 +264,6 @@ nav{
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 .section-title{
     color: #000000;
     font-weight: bold;
@@ -272,6 +277,7 @@ nav{
     font-size: 18px;
 }
 
+    /**7TH SECTION**/
 .text-seven{
     display: flex;
     gap: 50px;
