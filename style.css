@@ -1,5 +1,5 @@
 body{
-    background-color: #f4fdfc;
+    background-color: #e9f1fd;
 }
 nav{
     background-image: url(Assets/Hero-bg.png);
@@ -16,17 +16,23 @@ nav{
     font-size: 34px;
     font-family: "Inter"
 }
+.btn-colour{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+}
 .btn{
     width: 132px;
     height: 48px;
     padding: 3px 12px;
     border-radius: 10px;
     gap: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-.btn-colour{
-    background-color: #4E47FF;
-    color: #FFFFFF;
+.btn:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .second-title{
@@ -46,6 +52,13 @@ nav{
     border-radius: 10px;
     margin-top: 37px;
     margin-bottom: 200px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-second:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .title-second{
@@ -71,7 +84,13 @@ nav{
     width: 229px;
     height: 48px;
     border-radius: 10px;
-
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-third:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .img-title{
@@ -177,6 +196,13 @@ nav{
     width: 185px;
     border-radius: 10px;
     text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-five:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .img-five{
@@ -193,17 +219,19 @@ nav{
     padding: 50px 51px;
 }
 
-footer{
+.sec-bg {
     padding: 130px 230px;
     display: flex;
     gap: 100px;
 }
 
-.footer-column{
+.sec-column{
     width: 50%;
+    align-items: center;
+    display: flex;
 }
 
-footer input[type="text"], footer input[type="email"], footer textarea {
+.sec-bg input[type="text"], .sec-bg input[type="email"], .sec-bg textarea {
     height: 64px;
     border-radius: 5px;
     background-color: #e0fafa;
@@ -215,10 +243,20 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 }
 
 .btn-six{
-    padding: 15px 260px;
-    border-radius: 15px;
+    padding: 15px 240px;
+    width: 107%;
+    border-radius: 10px;
     text-align: center;
-    height: 30px;
+    height: 64px;
+    font-size: 18px;
+    margin-bottom: 24px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-six:hover{
+    background-color: yellow;
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .section-title{
@@ -252,4 +290,7 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 }
 .text-seven{
     color: #757575;
+}
+.color-white{
+    color: #8987A1;
 }
