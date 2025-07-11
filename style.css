@@ -62,7 +62,7 @@ nav{
     font-family: "Raleway";
 }
 .nd-p-text{
-    color: #252432;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 24px;
     font-family: "Raleway";
 }
@@ -90,6 +90,7 @@ nav{
     justify-content: center;
     gap: 158px;
 }
+
 .card{
     padding: 80px 50px;
 }
@@ -102,6 +103,8 @@ nav{
 .rd-p-text{
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
+    margin-top: -45px;
+    font-family: "Inter";
 }
 
 .clr-blue{
@@ -111,7 +114,6 @@ nav{
     font-family:"Inter" ;
 }
 .title-four{
-    text-align: center;
     margin: 200px 0px;
 }
 .box-container{
@@ -129,6 +131,7 @@ nav{
     border-radius: 10px;
 }
 .h-four{
+    text-align: center;
     color: #252432;
     font-weight: bold;
     font-size: 42px;
@@ -136,10 +139,13 @@ nav{
 }
 .txt-size{
     font-family: "Raleway";
+    margin-top: 40px;
 }
 .img-section{
     display: flex;
     gap: 12px;
+    margin-top: 40px;
+    align-items: center;
 }
 .iimg{
     width: 40px;
@@ -148,6 +154,12 @@ nav{
 }
 .styles{
     color: #757575;
+    font-size: 22px;
+    font-family: "inter";
+}
+.styles-p{
+    color: #B3B3B3;
+    margin-top: -20px;
 }
 .text-five{
     font-family: "Raleway";
@@ -175,7 +187,7 @@ nav{
 }
 .title-five{
     text-align: center;
-    margin: 200px 100px;
+    margin: 200px 240px;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 50px 51px;
@@ -194,7 +206,7 @@ footer{
 footer input[type="text"], footer input[type="email"], footer textarea {
     height: 64px;
     border-radius: 5px;
-    background-color: #D6DDED;
+    background-color: #e0fafa;
     display: block;
     width: 100%;
     padding: 10px 20px;
