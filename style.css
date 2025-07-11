@@ -14,7 +14,7 @@ nav{
 .logo-text{
     color: #4E47FF;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 38px;
     font-family: "Inter"
 }
 .btn-colour{
@@ -22,8 +22,8 @@ nav{
     color: #FFFFFF;
 }
 .btn{
-    width: 132px;
-    height: 48px;
+    width: 140px;
+    height: 50px;
     padding: 3px 12px;
     border-radius: 10px;
     gap: 10px;
@@ -49,8 +49,8 @@ nav{
     color: #252432;
 }
 .btn-second{
-    width: 174px;
-    height: 48px;
+    width: 180px;
+    height: 50px;
     border-radius: 10px;
     margin-top: 37px;
     margin-bottom: 200px;
@@ -138,7 +138,7 @@ nav{
 
     /**4TH SECTION**/
 .title-four{
-    margin: 200px 0px;
+    margin-top: 200px;
 }
 .box-container{
     display: flex;
@@ -198,8 +198,8 @@ nav{
 
 }
 .btn-five{
-    padding: 22px 25px;
     width: 185px;
+    height: 50px;
     border-radius: 10px;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -253,7 +253,7 @@ nav{
     width: 107%;
     border-radius: 10px;
     text-align: center;
-    height: 64px;
+    height: 54px;
     font-size: 18px;
     margin-bottom: 24px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
